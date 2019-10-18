@@ -1,15 +1,14 @@
 import React from 'react';
 import ButtonAppBar from './components/Navi'
-//import SimpleCard from './components/SimpleCard'
-import Hero from './components/hero.jpg'
+import MyLandingPage from './components/Hero'
+
 
 function App() {
   return (
     <div className="App">
       <nav>
         <ButtonAppBar />
-        <img src={Hero} width="100%" height="600" alt="hero"/>
-        
+        <MyLandingPage />
       </nav>      
     </div>
   );
